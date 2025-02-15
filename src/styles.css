@@ -55,3 +55,53 @@ body {
   color: white;
   font-size: 2.5rem;
 }
+
+.plusMinus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  width: 100vw;
+  font-size: 3rem;
+}
+
+.plusMinus button {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.todos {
+  margin-top: 3rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  flex-direction: column;
+}
+
+.todos input {
+  height: 2.5rem;
+  font-size: 1.5rem;
+}
+
+.todo {
+  padding: 0.5rem;
+  margin: 0.2rem;
+  background-color: aquamarine;
+  border-radius: 6px;
+  border: 1px solid grey;
+  min-width: 250px;
+}
+
+.todo-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-buttons button {
+  cursor: pointer;
+}
