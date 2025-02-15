@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { ACTIONS } from "./App";
+import { ACTIONS } from "./helpers";
 
 export default function OperationButton({ dispatch, operation }) {
   return (
