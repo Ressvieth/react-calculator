@@ -1,11 +1,6 @@
 import { useReducer, useState } from "react";
 import { Todo } from "./Todo";
-
-export const TODO_ACTIONS = {
-  ADD_TODO: "add-todo",
-  TOGGLE_TODO: "toggle-todo",
-  DELETE_TODO: "delete-todo",
-};
+import { TODO_ACTIONS } from "./helpers";
 
 function reducer(todos, action) {
   switch (action.type) {
@@ -36,8 +31,6 @@ export const Todos = () => {
     dispatch({ type: TODO_ACTIONS.ADD_TODO, payload: { name } });
     setName("");
   }
-
-  // console.log(todos);
 
   return (
     <div className="todos">

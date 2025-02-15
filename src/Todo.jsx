@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { TODO_ACTIONS } from "./Todos";
+import { TODO_ACTIONS } from "./helpers";
 
 export const Todo = ({ todo, dispatch }) => {
   return (

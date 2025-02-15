@@ -37,7 +37,7 @@ export const PlusMinus = () => {
   return (
     <div className="plusMinus">
       <button onClick={decrement}>-</button>
-      <h2>{state.count}</h2>
+      <p>{state.count}</p>
       <button onClick={increment}>+</button>
     </div>
   );
